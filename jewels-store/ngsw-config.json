@@ -1,0 +1,54 @@
+{
+    "$schema": "./node_modules/@angular/service-worker/config/schema.json",
+    "index": "/index.html",
+    "assetGroups": [{
+            "name": "app",
+            "installMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/favicon.ico",
+                    "/index.html",
+                    "/manifest.webmanifest",
+                    "/*.css",
+                    "/*.js"
+                ],
+                "urls": [
+                    "http://127.0.0.1:4200/**",
+                    "http://127.0.0.1/**"
+                ]
+            }
+        },
+        {
+            "name": "assets",
+            "installMode": "lazy",
+            "updateMode": "prefetch",
+            "resources": {
+                "files": [
+                    "/assets/**",
+                    "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
+                ]
+            }
+        }
+    ],
+    "dataGroups": [{
+            "name": "category-api",
+            "urls": ["http://127.0.0.1/jewels_store/backend/api/categories.php"],
+            "cacheConfig": {
+                "strategy": "performance",
+                "maxSize": 20,
+                "maxAge": "1h",
+                "timeout": "5s"
+            }
+        },
+        {
+            "name": "products-api",
+            "urls": ["http://127.0.0.1/jewels_store/backend/api/products.php"],
+            "cacheConfig": {
+                "strategy": "performance",
+                "maxSize": 20,
+                "maxAge": "1h",
+                "timeout": "5s"
+            }
+        }
+    ]
+}

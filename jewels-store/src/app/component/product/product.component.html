@@ -1,0 +1,28 @@
+<header>
+
+</header>
+<div class="content" role="main">
+    <app-category></app-category>
+    <div class="card-container">
+        <ng-container *ngIf="productsList.length > 0">
+            <ng-container *ngFor="let item of productsList">
+                <div class="card">
+                    <img src="assets/img/{{item.image}}" alt="{{item.name}}" />
+                    <h1 style="height: 120px;">{{item.name}}</h1>
+                    <p class="price">{{item.price | currency}}</p>
+                    <p><button (click)=addItem(item)>Add to Cart</button></p>
+                </div>
+            </ng-container>
+        </ng-container>
+        <ng-container *ngIf="productsList.length === undefined|| productsList.length == 0">
+            <div class="emptyList">
+                <div class="center">
+                    <img src="assets/img/sold.jpg" alt="" />
+                    <h4>All items are sold out!</h4>
+                    <h6>Try it later</h6>
+                    <p><button routerLink="/products">Go to Home</button></p>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>

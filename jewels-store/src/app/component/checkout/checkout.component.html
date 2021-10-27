@@ -1,0 +1,131 @@
+<div class="content" role="main">
+  <ng-container *ngIf="productsList.length > 0">
+    <div class="card-table">
+      <div class="cart-product">
+        <table style="border: none;">
+          <tr>
+            <td width="50%">
+              <table class="table table-responsive">
+                <thead>
+                <tr>
+                  <th>Nr.</th>
+                  <th colspan="2">Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr *ngFor="let item of productsList; let i = index">
+                  <td>
+                    {{i + 1}}
+                  </td>
+                  <td>
+                    <img style="width: 120px;" src="assets/img/{{item.image}}" alt="">
+                  </td>
+                  <td style="width: 25%;">
+                    {{item.name}}
+                  </td>
+                  <td style="width: 12%;">
+                    {{item.price | currency}}
+                  </td>
+                  <td style="width: 12%;">
+                    1
+                  </td>
+                  <td style="width: 12%;">
+                    {{item.price | currency}}
+                  </td>
+                </tr>
+                <tr style="background-color: rgb(7, 119, 26); color: #fff;">
+                  <td colspan="4">
+                  </td>
+                  <td style="text-align: right;">
+                    <strong>Amount:</strong>
+                  </td>
+                  <td style="text-align: left;">
+                    <strong>{{ amount | currency}}</strong>
+                  </td>
+                </tr>
+                <tr style="background-color: #fff;">
+                  <td colspan="2">
+                  </td>
+                  <td>
+                    <button routerLink="/products" (click)="emptyCart()" style="background-color: rgb(245, 83, 83);">
+                      cancel
+                    </button>
+                  </td>
+                  <td colspan="2">
+                    <button routerLink="/products">Shop More</button>
+                  </td>
+                </tr>
+                </tbody>
+              </table>
+            </td>
+
+            <td>
+              <form action="#">
+                <table>
+                  <tr>
+                    <td>
+                      <label for="fullName">Name</label>
+                    </td>
+                    <td>
+                      <input type="text" id="fullName" name="Name"/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <label for="addr">Address</label>
+                    </td>
+                    <td>
+                      <input type="text" id="addr" name="address"/>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="5">
+
+                      <div>
+                        <input type="radio" id="mastrCard" name="payType" value="mastrCard"/>
+                        <label for="mastrCard">MastrCard</label>
+                        <img src="assets/img/mastercard_logo.gif" alt=""style="width: 40px;height:25px"/>
+                      </div>
+                      <div>
+                        <input type="radio" id="paypal" name="payType" value="paypal"/>
+                        <label for="paypal">PayPal</label>
+                        <img src="assets/img/American_Express_logo.png" alt="" style="width: 40px;height:25px"/>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr style="background-color: #fff;">
+                    <td>
+                      <button routerLink="/products" (click)="emptyCart()" style="background-color: rgb(245, 83, 83);">
+                        cancel
+                      </button>
+                    </td>
+                    <td>
+                      <button (click)="payment()" routerLink="/products">Ok</button>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </ng-container>
+
+  <ng-container *ngIf="productsList.length == 0">
+
+    <div class="card">
+      <div class="center">
+        <img src="assets/img/cart.png" alt=""/>
+        <h4>Your cart is empty!</h4>
+        <h6>Add item to it now</h6>
+        <p>
+          <button routerLink="/products">Shop Now</button>
+        </p>
+      </div>
+    </div>
+  </ng-container>
+</div>

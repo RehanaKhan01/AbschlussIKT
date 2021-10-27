@@ -1,0 +1,8 @@
+<div class="card-container">
+    <ng-container *ngFor="let category of categoriesList">
+        <a class="card" (click)="onClick(category.id)">
+            <img class="material-icons" src="assets/img/{{category.image}}" alt="" />
+            <span>{{category.name}}</span>
+        </a>
+    </ng-container>
+</div>
