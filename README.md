@@ -24,7 +24,7 @@ Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in de
 
 * Push-Nachrichten verwenden,
 
-3)Technologien
+2)Technologien
 
 # Technologie
 Verwendete Technologie :
