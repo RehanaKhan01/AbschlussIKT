@@ -6,6 +6,7 @@ Abschlussprüfung für IKT 21
 Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in dem Schmuck verkauft wird. Die NutzerInnen haben die Möglichkeit, Artikel zum Warenkorb hinzuzufügen und zu löschen.Anschließend kann der Kauf abgeschlossen werden. Progressive Web Apps bieten installierbare nativen Apps ähnliche Nutzererfahrungen sowohl auf dem Desktop als auch auf dem Smartphone auch offline ausführbar ist. 
 
 # Inhalt
+
 1)Entwicklungsumgebung besizt / ist
 
 * responsive Frontend 
@@ -47,7 +48,6 @@ Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in de
 
 
 <img width="1440" alt="Bildschirmfoto 2021-10-29 um 10 00 45" src="https://user-images.githubusercontent.com/66748601/139412755-4607ff49-f8fc-4248-a184-0417b08ac593.png">
-
 
 
 
