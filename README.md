@@ -23,6 +23,8 @@ Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in de
 
 * installierbar 
 
+<img width="1440" alt="install" src="https://user-images.githubusercontent.com/66748601/139413916-3a10ca54-b090-4de5-a733-9cab17f89012.png">
+
 
 * offline nutzbar 
 
