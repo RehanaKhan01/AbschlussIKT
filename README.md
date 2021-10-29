@@ -40,6 +40,7 @@ Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in de
 
 <img width="399" alt="Push" src="https://user-images.githubusercontent.com/66748601/139412451-23c6b7a2-c74c-4a4b-a4ac-35aa8e6fc296.png">
 
+
 <img width="1440" alt="checkoutpush" src="https://user-images.githubusercontent.com/66748601/139412605-7843c415-f6aa-4c70-8da7-f5618f015e7a.png">
 
 
