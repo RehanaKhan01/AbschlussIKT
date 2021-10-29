@@ -10,6 +10,8 @@ Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in de
 
 * responsive Frontend 
 
+<img width="1440" alt="Home" src="https://user-images.githubusercontent.com/66748601/139410009-045d9b49-6acb-4069-93b1-92a885df1886.png">
+
 * Backend 
 
 * Datenbank
