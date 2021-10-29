@@ -14,17 +14,39 @@ Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in de
 
 * Backend 
 
+<img width="1440" alt="Armband" src="https://user-images.githubusercontent.com/66748601/139411703-8548c8fb-ae3a-4ea1-adfa-c5945c831308.png">
+
 * Datenbank
+
+<img width="83" alt="warenkorb" src="https://user-images.githubusercontent.com/66748601/139412054-cb8f0b84-c9c7-4e29-b692-9721e128feb8.png">
+
 
 * installierbar 
 
+
 * offline nutzbar 
+
+
 
 * verwenderbares IndexedDB
 
+<img width="1440" alt="Empty" src="https://user-images.githubusercontent.com/66748601/139412173-23bd694d-786f-432b-8dbc-dccb6517d691.png">
+
 * Hintergrundsynchronisation 
 
-* Push-Nachrichten verwenden,
+<img width="1440" alt="checkout" src="https://user-images.githubusercontent.com/66748601/139412520-5d7b5814-169f-4797-a41f-7e94db004a6e.png">
+
+* Push-Nachrichten verwenden
+
+<img width="399" alt="Push" src="https://user-images.githubusercontent.com/66748601/139412451-23c6b7a2-c74c-4a4b-a4ac-35aa8e6fc296.png">
+
+<img width="1440" alt="checkoutpush" src="https://user-images.githubusercontent.com/66748601/139412605-7843c415-f6aa-4c70-8da7-f5618f015e7a.png">
+
+
+<img width="1440" alt="Bildschirmfoto 2021-10-29 um 10 00 45" src="https://user-images.githubusercontent.com/66748601/139412755-4607ff49-f8fc-4248-a184-0417b08ac593.png">
+
+
+
 
 2)Technologien
 
