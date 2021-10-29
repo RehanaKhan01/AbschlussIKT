@@ -64,7 +64,7 @@ Entwicklungsumgebung : IntelliJ
 
 Bootstrap Version 4.3.1 , 3.3.7
 
-WebApp-Manifest-Generator¶
+WebApp-Manifest-Generator
 
 HTML
 
