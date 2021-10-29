@@ -28,7 +28,7 @@ Bei meiner Progressive Web Apps (PWA)handelt es sich um einen Online Shop, in de
 
 * offline nutzbar 
 
-
+<img width="1436" alt="Offline" src="https://user-images.githubusercontent.com/66748601/139415258-3d90bb21-ebaa-442d-b35d-645f038392be.png">
 
 * verwenderbares IndexedDB
 
